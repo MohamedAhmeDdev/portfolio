@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #126E82;
+    overflow-x: hidden;
+}
+
+
+/* header-navigation */
+
+.header{
+    height: 550px;
+    width: 100%;
+}
+.name{
+    position: relative;
+    left: 250px;
+    top: 230px;
+    font-size: 45px;
+    font-family: Lucida Handwriting;
+}
+.job{
+    color: rgba(255, 255, 255, 0.281);
+    position: relative;
+    left: 250px;
+    top: 250px;
+    font-size: 30px;
+}
+
+
+.border-picture{
+    position: relative;
+    top: 60px;
+    left: 820px;
+    height: 370px;
+    width: 420px;
+    border: 2px solid white;
+}
+.profile-picture{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    height: 370px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+.navbar{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    height: 50px;
+    width: 230px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 15px;
+}
+.navbar ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.185);
+}
+#git{
+    position: absolute;
+    bottom: 5px;
+}
+#git:hover{
+    border-bottom: none;
+}
+
+
+
+
+/* about skills */
+
+/* about */
+
+.about-skill{
+    background-color: #19282f5b;
+    height: 540px;
+    width: 100%;
+}
+
+.about{
+    padding: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+.about-info{
+    color: rgba(255, 255, 255, 0.281);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+/* skill */
+
+.skill{
+    position: absolute;
+    left: 420px;
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+}
+.skills{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.divs{
+    justify-content:space-around;
+    display: flex;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+}
+#logo1{
+    color: red;
+    position: relative;
+    left: 10px;
+}
+.html{
+    color: rgba(255, 255, 255, 0.281);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.div2{
+    height: 100px;
+    width: 100px;
+}
+#logo2{
+    color: blue;
+    position: relative;
+    left: 10px;
+}
+.css{
+    color: rgba(255, 255, 255, 0.281);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* project */
+
+.projects{
+    height: 600px;
+    width: 100%;
+}
+.project{
+    padding: 70px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.project-divs{
+    justify-content: space-evenly;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+.colage-web{
+    border: 1px solid white;
+    border-radius: 20px 0 20px;
+    height: 350px;
+    width: 300px;
+    background-color: #19282f5b;
+    transition: 0.5s;
+}
+.collage{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+}
+.collage-info{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.colage-web:hover{
+    margin-top: -20px;
+}
+
+#veiw{
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-top: 60px;
+    margin-left: 100px;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+a{
+    color: white;
+}
+#veiw:hover{
+    border: 1px solid white;
+}
+
+
+
+
+
+
+.space-web{
+    border: 1px solid white;
+    margin-right: 50px;
+    border-radius: 20px 0 20px;
+    height: 350px;
+    width: 300px;
+    background-color: #19282f5b;
+    transition:0.5s;
+}
+.space{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+.space-info{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.space-web:hover{
+    margin-top: -20px;
+}
+
+#veiw-space{
+     letter-spacing: 2px;
+     font-size: 14px;
+     margin-top: 90px;
+     margin-left: 100px;
+     outline: none;
+     border: none;
+     height: 40px;
+     width: 100px;
+     background-color: rgba(0, 0, 255, 0.459);
+}
+a{
+    color: white;
+}
+#veiw-space:hover{
+    border: 1px solid white;
+}
+
+
+
+
+
+.electric-store{
+    border: 1px solid white;
+    border-radius: 20px 0 20px;
+    height: 350px;
+    width: 300px;
+    background-color: #19282f5b; 
+    transition: 0.5s;
+}
+.electric{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+.electric-info{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.electric-store:hover{
+    margin-top: -20px;
+}
+
+#veiw-electric{
+     letter-spacing: 2px;
+     font-size: 14px;
+     margin-top: 110px;
+     margin-left: 100px;
+     outline: none;
+     border: none;
+     height: 40px;
+     width: 100px;
+     background-color: rgba(0, 0, 255, 0.459);
+}
+ a{
+    color: white;
+}
+#veiw-electric:hover{
+    border: 1px solid white;
+}
+
+
+
+
+/* footer */
+
+footer{
+    background-color: #F6F6F6;
+    height: 70px;
+    width: 100%;
+}
+
+#footer{
+    position: relative;
+    left: 600px;
+    top: 20px;
+}
+#footer a{
+    color: blue;
+    text-decoration: none;
+}
