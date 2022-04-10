@@ -15,39 +15,6 @@ body{
     height: 550px;
     width: 100%;
 }
-.name{
-    position: relative;
-    left: 250px;
-    top: 230px;
-    font-size: 45px;
-    font-family: Lucida Handwriting;
-}
-.job{
-    color: rgba(255, 255, 255, 0.281);
-    position: relative;
-    left: 250px;
-    top: 250px;
-    font-size: 30px;
-}
-
-
-.border-picture{
-    position: relative;
-    top: 60px;
-    left: 820px;
-    height: 370px;
-    width: 420px;
-    border: 2px solid white;
-}
-.profile-picture{
-    background-image: url(./images/IMG_0043-removebg-preview.png);
-    position: absolute;
-    bottom: 20px;
-    right: 40px;
-    height: 370px;
-    width: 450px;
-    background-color: rgb(255, 255, 255);
-}
 
 
 .navbar{
@@ -80,6 +47,50 @@ body{
     border-bottom: none;
 }
 
+
+.info-img-div{
+    height: 500px;
+    width: 100%;
+}
+.info-img{
+    height: 200px;
+    width: 470px;
+    position: absolute;
+    left: 250px;
+    top: 230px;
+}
+
+.name{
+    position:absolute;
+    font-size: 45px;
+    font-family: Lucida Handwriting;
+}
+.job{
+    color: rgba(255, 255, 255, 0.281);
+    position: absolute;
+    bottom: 80px;
+    font-size: 30px;
+}
+
+
+
+.border-picture{
+    position: relative;
+    top: 150px;
+    left: 820px;
+    height: 370px;
+    width: 420px;
+    border: 2px solid white;
+}
+.profile-picture{
+    background-image: url(./images/IMG_0043-removebg-preview.png);
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    height: 370px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+}
 
 
 
